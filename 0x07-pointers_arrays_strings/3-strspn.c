@@ -1,14 +1,15 @@
-#include "main.h" 
-  
- /** 
-  * _strspn - Entry point 
-  * @s: input 
-  * @accept: input 
-  * Return: Always 0 (success) 
-  */ 
- unsigned int _strspn(char *s, char *accept) 
+#include "main.h"
+
+/** 
+* _strspn - Entry point 
+* @s: input 
+* @accept: input 
+* Return: Always 0 (success) 
+*/
+
+unsigned int _strspn(char *s, char *accept) 
  { 
- unsigned int i, n, value, check; 
+ unsigned int i, n, value, check; 
   
  value = 0; 
   

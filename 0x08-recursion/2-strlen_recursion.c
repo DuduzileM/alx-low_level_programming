@@ -12,8 +12,8 @@ int _strlen_recursion(char *s)
 
     if (*s != '\0')
     {
-        sum++;
-        sum += _srtlen_recursion(s + 1);
+    sum++;
+    sum += _srtlen_recursion(s + 1);
     
     }
     return (sum);

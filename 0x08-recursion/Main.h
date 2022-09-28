@@ -15,3 +15,4 @@ int_sqrt(int n, int x);
 int is_prime(int n, int start);
 void check(char 8s, int start, int end , int *flag);
 int wildcmp(char *sl, char *s2);
+#endif /*MAIN_H*/ 

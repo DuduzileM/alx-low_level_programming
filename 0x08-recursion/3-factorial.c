@@ -1,11 +1,12 @@
 #include "main.h"
 
 /** 
- *  factorial - returns the factorila of a given number 
- * @n: number to` be used
- * 
- * Return: the factorial of the number
- */
+*  factorial - returns the factorila of a given number 
+* @n: number to` be used
+* 
+* Return: the factorial of the number
+*/
+
 int factorial(int n)
 {
     int next_factorial;

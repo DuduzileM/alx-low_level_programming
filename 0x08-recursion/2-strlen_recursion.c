@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _srtlen_recursion - calculates the lenght of a string
- *  @s: string to be used
- *Return: lenght of the string
- */
+* _srtlen_recursion - calculates the lenght of a string
+*  @s: string to be used
+*Return: lenght of the string
+*/
+
 int _strlen_recursion(char *s)
 {
     int sum = 0;

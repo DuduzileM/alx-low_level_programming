@@ -1,7 +1,11 @@
-#ifindef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
-
-#include <studio.h>
+#include <stdio.h>
+/**
+*void prototypes()
+*int prototypes()
+*char prototypes()
+*/
 
 int _putchar(char C)
 Void _puts_recursion(char s)
@@ -15,4 +19,5 @@ int_sqrt(int n, int x);
 int is_prime(int n, int start);
 void check(char 8s, int start, int end , int *flag);
 int wildcmp(char *sl, char *s2);
-#endif /*MAIN_H*/ 
+
+#endif /*MAIN_H*/

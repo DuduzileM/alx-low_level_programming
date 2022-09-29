@@ -1,20 +1,14 @@
 #include "main.h"
 
-/**
-* _srtlen_recursion - calculates the lenght of a string
-*  @s: string to be used
-*Return: lenght of the string
-*/
-
-int _strlen_recursion(char *s)
-{
-int sum = 0;
-
-if (*s != '\0')
-    {
-    sum++;
-    sum += _srtlen_recursion(s + 1);
-    
-    }
-    return (sum);
-}
+ /** 
+  * _strlen_recursion - note: no _putchar in local test 
+  * @s: input 
+  * Return: Always 0 (Success) 
+  */ 
+ int _strlen_recursion(char *s) 
+ { 
+         if (*s == '\0') 
+                 return (0); 
+         else 
+                 return (1 + _strlen_recursion(s + 1)); 
+ }

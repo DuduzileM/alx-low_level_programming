@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
+$CFILE -o c > 0-preprocessor
+=======
 gcc -E $CFILE -o c
+>>>>>>> d5353bd4a821e350c3462dfdf454854cc400e4e2
